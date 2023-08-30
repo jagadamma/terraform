@@ -1,0 +1,4 @@
+resource "aws_key_pair" "deployer" {
+  key_name   = "mykey"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDJJbx0YcTefij3J25y3u813yhahQtN95ogDn3Igko1/Q5DYl2UUGNen/iTIRK00IhFVRhgsAtmOg94skuCY6IMM+903DjvB0M7JuVNbYYj3RLo8tnWVefWodI6rvKLE9U2orHYTWr2moqFvYHnfafFEHpdl40Y1T+SCLCissDJgInVefry9ow5TrmBrRD30VzzV3xAEtrTiht6Y/tUsyomb6tHzCvCFCNsw4KzGAcF+7VEZxm7lj9kq1EH9jyY3PxI4pDhpIh45jN/NFiL0H7/SrT4BYWgXcZjghcFXpAEp3fWiVSITRejWmk/RuxtvEt6FA6drQT3f214SX3F5GLThY1qS0R5iYmzux4T09TfQCfIh1DMr+CfOSPeA0LkitTlLFPWfTPIjKm3+uNkhZjF1ZO9kDXy+CFywuuT61AipSPPr/OEF6RFLmk4lNpwcK1+fnux8dTSzkO+0XfH54V7NbTNFUKC1lM8kdV4IxG55TLMNoOoqk1FA4ttxjCxOKE= root@ip-172-31-45-179.ec2.internal"
+}
